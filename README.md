@@ -16,7 +16,7 @@ As expressões são escritas de forma linear, sendo constituidas essencialmente 
 
 | Símbolo | Operação | Exemplo | Descrição |
 | ----------- | ----------- | ----------- | ----------- |
-| `<-` | Atribuição | X <- 12 + 23 | Aramazena o valor resultante da expressão a direita na variável a esquerda do operador. |
+| `=` | Atribuição | X <- 12 + 23 | Aramazena o valor resultante da expressão a direita na variável a esquerda do operador. |
 | `+` | Adição | 0.5 + taxa | Realiza a adição de literais ou de valores armazenados em variáveis. |
 | `-` | Subtração | saldo - valor | Operador binário que subtrai o valor do segundo operando do valor do primeiro. |
 | `*` | Multiplicação | montante * 1.73 | Representa a operação de multiplicação entre dois operandos. |
@@ -34,12 +34,12 @@ Sua formação deve seguir as seguintes regras:
 
 Conversão de temperatura:
 ```
-F <- 1.8 * C + 32
+F = 1.8 * C + 32
 ```
 
 Báskara:
 ```
-delta <- b*b - 4*a*c
-x1 <- (-b + sqrt(delta)) / (2*a)
-x2 <- (-b - sqrt(delta)) / (2*a)
+delta = b*b - 4*a*c
+x1 = (-b + sqrt(delta)) / (2*a)
+x2 = (-b - sqrt(delta)) / (2*a)
 ```
